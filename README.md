@@ -16,12 +16,12 @@ This is a combined version of DatePicker iOS and Android plugin for Cordova/Phon
 2) Add a plugin to your project using Cordova CLI:
 
 ```bash
-cordova plugin add https://github.com/Sharinglabs/cordova-plugin-datepicker
+cordova plugin add https://github.com/nilaft/cordova-plugin-datepicker
 ```
 Or using PhoneGap CLI:
 
 ```bash
-phonegap local plugin add https://github.com/Sharinglabs/cordova-plugin-datepicker
+phonegap local plugin add https://github.com/nilaft/cordova-plugin-datepicker
 ```
 
 3a) Register plugin within `config.xml` of your app
@@ -32,14 +32,19 @@ phonegap local plugin add https://github.com/Sharinglabs/cordova-plugin-datepick
 </feature>
 
 <feature name="DatePickerPlugin">
-    <param name="android-package" value="com.sharinglabs.cordova.plugin.datepicker.DatePickerPlugin"/>
+    <param name="android-package" value="com.nilaft.cordova.plugin.datepicker.DatePickerPlugin"/>
 </feature>
 ```
 
 3b) If you are using [PhoneGap build service](https://build.phonegap.com/) add to `config.xml`
 
 ```xml
-<gap:plugin name="com.sharinglabs.cordova.plugin.datepicker" />
+<gap:plugin name="com.
+
+
+
+
+labs.cordova.plugin.datepicker" />
 ```
 
 ## Usage
